@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<script language="javascript"> var txt="   .::| Site do Gustavo Estrela |::.  ";var veloc=200;var refr=null;function rotulo_title(){document.title=txt;txt=txt.substring(1,txt.length)+txt.charAt(0);refr=setTimeout("rotulo_title()",veloc);}rotulo_title();
+</script>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Página pessoal do Gustavo Estrela de Matos</title>
+	</head>
+
+	<body>
+		<h2>Página Pessoal do Gustavo Estrela de Matos</h2>
+		<p>O Gustavo é legal<br />
+		<br />
+		<span style="color: rgb(255, 0, 0);"><marquee behavior=scroll>Bom te ver!</marquee></span>
+	</body>
+</html>

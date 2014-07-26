@@ -17,11 +17,11 @@
     echo("se liga:");
     echo($_GET);
     echo($_POST);
-    echo("fim :)")
+    echo("fim :)");
     if (get_magic_quotes_gpc()) { 
         $_GET  = stripFormSlashes($_GET); 
         $_POST = stripFormSlashes($_POST); 
-    } 
+    }
                 
     echo ("<br/>"); 
     echo ("<pre>"); 

@@ -14,18 +14,19 @@
             return array_map('stripFormSlashes', $arr); 
     } 
     
-    echo("se liga:");
-    echo($_GET);
-    echo($_POST);
-    echo("fim :)");
+    echo("se liga: ");
+    print_r($_GET);
+    echo("<br/>");
+    print_r($_POST);
+    echo("<br/>fim :)");
     if (get_magic_quotes_gpc()) { 
         $_GET  = stripFormSlashes($_GET); 
         $_POST = stripFormSlashes($_POST); 
     }
                 
-    echo ("<br/>"); 
-    echo ("<pre>"); 
-    echo ("POST info:\n"); 
+    echo("<br/>"); 
+    echo("<pre>"); 
+    echo("POST info:\n"); 
     print_r($_POST); 
     echo("</pre>"); 
 
@@ -35,10 +36,9 @@
     print_r($_GET); 
     echo("</pre>"); 
     
-    if($_GET['name']) 
-        { 
+    if ($_GET['name']) { 
         $name = $_GET['name']; 
-        }             
+    }             
     echo($name); 
 ?> 
 

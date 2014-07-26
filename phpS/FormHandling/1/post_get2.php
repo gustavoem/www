@@ -14,11 +14,6 @@
             return array_map('stripFormSlashes', $arr); 
     } 
     
-    echo("se liga: ");
-    print_r($_GET);
-    echo("<br/>");
-    print_r($_POST);
-    echo("<br/>fim :)");
     if (get_magic_quotes_gpc()) { 
         $_GET  = stripFormSlashes($_GET); 
         $_POST = stripFormSlashes($_POST); 
